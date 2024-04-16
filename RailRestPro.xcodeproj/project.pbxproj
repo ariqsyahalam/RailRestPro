@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440594EA2BC31A6D00B7F55F /* RailRestProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440594E92BC31A6D00B7F55F /* RailRestProApp.swift */; };
+		440594EC2BC31A6D00B7F55F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440594EB2BC31A6D00B7F55F /* ContentView.swift */; };
+		440594EE2BC31A6E00B7F55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440594ED2BC31A6E00B7F55F /* Assets.xcassets */; };
+		440594F12BC31A6E00B7F55F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440594F02BC31A6E00B7F55F /* Preview Assets.xcassets */; };
+		440594FE2BC31B9B00B7F55F /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440594FD2BC31B9B00B7F55F /* SessionView.swift */; };
+		440595022BC31E4300B7F55F /* TimerUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440595012BC31E4300B7F55F /* TimerUtil.swift */; };
+		440595042BC3236000B7F55F /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440595032BC3236000B7F55F /* SessionViewModel.swift */; };
+		440595072BC3294000B7F55F /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440595062BC3294000B7F55F /* HealthKitManager.swift */; };
+		440595092BC32A2F00B7F55F /* HealthKitUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440595082BC32A2F00B7F55F /* HealthKitUtil.swift */; };
+		4405950B2BC330F800B7F55F /* AlarmUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405950A2BC330F800B7F55F /* AlarmUtil.swift */; };
+		4405950D2BC3A01500B7F55F /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405950C2BC3A01500B7F55F /* HeartRate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		440594E62BC31A6D00B7F55F /* RailRestPro Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RailRestPro Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		440594E92BC31A6D00B7F55F /* RailRestProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailRestProApp.swift; sourceTree = "<group>"; };
+		440594EB2BC31A6D00B7F55F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		440594ED2BC31A6E00B7F55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		440594F02BC31A6E00B7F55F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		440594FD2BC31B9B00B7F55F /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		440595012BC31E4300B7F55F /* TimerUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerUtil.swift; sourceTree = "<group>"; };
+		440595032BC3236000B7F55F /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		440595052BC328FB00B7F55F /* RailRestPro Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "RailRestPro Watch App.entitlements"; sourceTree = "<group>"; };
+		440595062BC3294000B7F55F /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		440595082BC32A2F00B7F55F /* HealthKitUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitUtil.swift; sourceTree = "<group>"; };
+		4405950A2BC330F800B7F55F /* AlarmUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmUtil.swift; sourceTree = "<group>"; };
+		4405950C2BC3A01500B7F55F /* HeartRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate.swift; sourceTree = "<group>"; };
+		4405950E2BC3A3CA00B7F55F /* RailRestPro-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RailRestPro-Watch-App-Info.plist"; path = "RailRestPro Watch App/RailRestPro-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		440594E32BC31A6D00B7F55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		440594DD2BC31A6D00B7F55F = {
+			isa = PBXGroup;
+			children = (
+				440594E82BC31A6D00B7F55F /* RailRestPro Watch App */,
+				440594E72BC31A6D00B7F55F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		440594E72BC31A6D00B7F55F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440594E62BC31A6D00B7F55F /* RailRestPro Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		440594E82BC31A6D00B7F55F /* RailRestPro Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				440594E92BC31A6D00B7F55F /* RailRestProApp.swift */,
+				4405950E2BC3A3CA00B7F55F /* RailRestPro-Watch-App-Info.plist */,
+				440595052BC328FB00B7F55F /* RailRestPro Watch App.entitlements */,
+				440594FC2BC31B5500B7F55F /* Components */,
+				440594F72BC31B1B00B7F55F /* Models */,
+				440594EF2BC31A6E00B7F55F /* Preview Content */,
+				440594FA2BC31B3F00B7F55F /* Services */,
+				440594FB2BC31B4900B7F55F /* Utilities */,
+				440594F82BC31B2500B7F55F /* ViewModels */,
+				440594F92BC31B3200B7F55F /* Views */,
+			);
+			path = "RailRestPro Watch App";
+			sourceTree = "<group>";
+		};
+		440594EF2BC31A6E00B7F55F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				440594ED2BC31A6E00B7F55F /* Assets.xcassets */,
+				440594F02BC31A6E00B7F55F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		440594F72BC31B1B00B7F55F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4405950C2BC3A01500B7F55F /* HeartRate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		440594F82BC31B2500B7F55F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				440595032BC3236000B7F55F /* SessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		440594F92BC31B3200B7F55F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				440594EB2BC31A6D00B7F55F /* ContentView.swift */,
+				440594FD2BC31B9B00B7F55F /* SessionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		440594FA2BC31B3F00B7F55F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				440595062BC3294000B7F55F /* HealthKitManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		440594FB2BC31B4900B7F55F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4405950A2BC330F800B7F55F /* AlarmUtil.swift */,
+				440595012BC31E4300B7F55F /* TimerUtil.swift */,
+				440595082BC32A2F00B7F55F /* HealthKitUtil.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		440594FC2BC31B5500B7F55F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		440594E52BC31A6D00B7F55F /* RailRestPro Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440594F42BC31A6E00B7F55F /* Build configuration list for PBXNativeTarget "RailRestPro Watch App" */;
+			buildPhases = (
+				440594E22BC31A6D00B7F55F /* Sources */,
+				440594E32BC31A6D00B7F55F /* Frameworks */,
+				440594E42BC31A6D00B7F55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RailRestPro Watch App";
+			packageProductDependencies = (
+			);
+			productName = "RailRestPro Watch App";
+			productReference = 440594E62BC31A6D00B7F55F /* RailRestPro Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		440594DE2BC31A6D00B7F55F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					440594E52BC31A6D00B7F55F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 440594E12BC31A6D00B7F55F /* Build configuration list for PBXProject "RailRestPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 440594DD2BC31A6D00B7F55F;
+			packageReferences = (
+			);
+			productRefGroup = 440594E72BC31A6D00B7F55F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				440594E52BC31A6D00B7F55F /* RailRestPro Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		440594E42BC31A6D00B7F55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440594F12BC31A6E00B7F55F /* Preview Assets.xcassets in Resources */,
+				440594EE2BC31A6E00B7F55F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		440594E22BC31A6D00B7F55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440595042BC3236000B7F55F /* SessionViewModel.swift in Sources */,
+				4405950D2BC3A01500B7F55F /* HeartRate.swift in Sources */,
+				440594FE2BC31B9B00B7F55F /* SessionView.swift in Sources */,
+				440595022BC31E4300B7F55F /* TimerUtil.swift in Sources */,
+				440595072BC3294000B7F55F /* HealthKitManager.swift in Sources */,
+				440595092BC32A2F00B7F55F /* HealthKitUtil.swift in Sources */,
+				440594EC2BC31A6D00B7F55F /* ContentView.swift in Sources */,
+				440594EA2BC31A6D00B7F55F /* RailRestProApp.swift in Sources */,
+				4405950B2BC330F800B7F55F /* AlarmUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		440594F22BC31A6E00B7F55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		440594F32BC31A6E00B7F55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		440594F52BC31A6E00B7F55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RailRestPro Watch App/RailRestPro Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RailRestPro Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 87N548UZ24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RailRestPro-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = RailRestPro;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Aplikasi ini memerlukan akses ke data heart rate Anda untuk memantau kesehatan kardiovaskular Anda.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Aplikasi ini memerlukan akses untuk menulis data kesehatan agar dapat menyimpan workout.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .com.ariqsyahalam.railrestpro.watchos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		440594F62BC31A6E00B7F55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RailRestPro Watch App/RailRestPro Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RailRestPro Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 87N548UZ24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RailRestPro-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = RailRestPro;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Aplikasi ini memerlukan akses ke data heart rate Anda untuk memantau kesehatan kardiovaskular Anda.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Aplikasi ini memerlukan akses untuk menulis data kesehatan agar dapat menyimpan workout.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .com.ariqsyahalam.railrestpro.watchos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		440594E12BC31A6D00B7F55F /* Build configuration list for PBXProject "RailRestPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440594F22BC31A6E00B7F55F /* Debug */,
+				440594F32BC31A6E00B7F55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440594F42BC31A6E00B7F55F /* Build configuration list for PBXNativeTarget "RailRestPro Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440594F52BC31A6E00B7F55F /* Debug */,
+				440594F62BC31A6E00B7F55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 440594DE2BC31A6D00B7F55F /* Project object */;
+}
